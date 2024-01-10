@@ -332,11 +332,11 @@
 
    menu_list_active_button.addEventListener('click', () =>{
       playlist_part.style.transform  ="unset";
-    //   menu_list_active_button.style.opacity=0;
+      menu_list_active_button.style.opacity=0;
       menu_list_unactive_button.style.opacity=1;
    })
    document.querySelector('#menu_list_unactive_button').addEventListener('click', () => {
-    document.querySelector('.playlist-part').style.transform = 'translateX(-100%)';
+    playlist_part.style.transform = 'translateX(-100%)';
     menu_list_active_button.style.opacity=1;
     menu_list_unactive_button.style.opacity=0;
 });

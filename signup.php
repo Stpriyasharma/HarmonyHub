@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                     </div>
                     <div class="card">
                         <label for="re-password">re-password</label>
-                        <input type="re-password" name="User_re-password" placeholder="Enter Your re-password" required>
+                        <input type="password" name="User_re-password" placeholder="Enter Your re-password" required>
                     </div>
                      
                     <input type="submit" value="Sign Up" class="submit">
